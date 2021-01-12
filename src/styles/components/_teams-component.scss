@@ -1,0 +1,25 @@
+.teams-div {
+    height: 90vh;
+    padding: 20px;
+    margin: 1vh;
+    background-color: grey;
+    border-radius: 20px;
+
+}
+
+.teams-div>.title {
+    height: 8vh;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teams-div>.title h1 {
+    margin: 0px;
+}
+
+.teams-div>.title>button {
+    margin-left: 5vh;
+}

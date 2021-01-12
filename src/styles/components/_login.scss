@@ -1,0 +1,64 @@
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.login {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-image: url(../../assets/FrontPage.png);
+}
+
+.login-form {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.form-input {
+    width: 50%;
+    height: 10%;
+    text-align: center;
+    border-radius: 20px;
+    margin: 1vh;
+}
+
+.form-input:focus {
+    outline: none;
+}
+
+.form-input:hover {
+    cursor: pointer;
+}

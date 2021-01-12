@@ -1,0 +1,34 @@
+.navigation {
+
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+.nav {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: grey;
+  border-radius: 0px 20px 20px 0px;
+
+
+}
+
+.navigation>ul {
+  border-radius: 0px 20px 20px 0px;
+
+}
+
+.ant-menu .ant-menu-dark .ant-menu-root .ant-menu-vertical li {
+  text-decoration: none;
+}
+
+a>li {
+  color: white;
+}
+
+h1 {
+  margin: 0px;
+}
